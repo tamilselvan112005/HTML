@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tamil Selvan </title>
+</head>
+<body>
+    <h1> This is Tamil Selvan's Online Ticket Reservation System </h1>
+</body>
+<body>
+
+  <form method="get">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="from">From:</label><br>
+    <input type="text" id="from" name="from" required><br><br>
+
+    <label for="to">To:</label><br>
+    <input type="text" id="to" name="to" required><br><br>
+
+    <label for="date">Travel Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="tickets">Number of Tickets:</label><br>
+    <input type="number" id="tickets" name="tickets" min="1" required><br><br>
+
+    <label for="type">Ticket Type:</label><br>
+    <select id="type" name="type" required>
+      <option value="train">Train</option>
+      <option value="flight">Flight</option>
+      <option value="bus">Bus</option>
+      <option value="movie">Movie</option>
+    </select><br><br>
+
+    <button formaction="https://www.irctc.co.in/" type="submit">Reserve Train Ticket</button>
+    <button formaction="https://www.airindia.in/" type="submit">Reserve Flight Ticket</button>
+    <button formaction="https://www.redbus.in/" type="submit">Reserve Bus Ticket</button>
+    <button formaction="https://in.bookmyshow.com/" type="submit">Reserve Movie Ticket</button>
+  </form>
+</body>
+</html>
