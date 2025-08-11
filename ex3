@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Online Shop</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(to bottom, #fffaf0, #ffe4b5);
+margin: 0;
+padding: 0;
+color: #333;
+}
+h1 {
+text-align: center;
+background: #ff9800;
+color: white;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+h2 {
+text-align: center;
+color: #e65100;
+margin-top: 20px;
+}
+.product-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 15px;
+}
+.product {
+background: white;
+border-radius: 10px;
+margin: 10px;
+padding: 15px;
+width: 250px;
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.product img {
+border-radius: 8px;
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.product:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.price {
+color: #d32f2f;
+font-weight: bold;
+font-size: 18px;
+}
+audio,
+video {
+margin-top: 10px;
+border: 2px solid #ff9800;
+border-radius: 8px;
+}
+center {
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+margin: 20px;
+}
+a {
+color: #ff5722;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #e65100;
+}
+</style>
+</head>
+<body>
+<h1>Welcome to Our Muhizon Online Shop</h1>
+<h2>Deals and Smart Phones</h2>
+<div class="product-container">
+<div class="product">
+<a href="phone.html"><img src="phone.webp" alt="Smartphone" /></a>
+<h3>Smart Phone</h3>
+<p>REDMI Note 14 SE 5G (Crimson Art, 128 GB) (6 GB RAM)</p>
+<p class="price">₹14,999 Onwards</p>
+<p>Click the above photo for more details</p>
+</div>
+<div class="product">
+<a href="speaker.html"
+><img src="speaker.webp" alt="Bluetooth Speaker"
+/></a>
+<h3>Bluetooth Wireless Speaker</h3>
+<p>
+Daily Needs Shop Bluetooth Wireless Speaker With Karaoke Mic & RGB
+Light
+</p>
+<p class="price">₹599 Onwards</p>
+<p>Click the above photo for more details</p>
+</div>
+</div>
+<h2>Home Appliances</h2>
+<div class="product-container">
+<div class="product">
+<a href="pump.html"
+><img src="pump.webp" alt="Water Dispenser Pump"
+/></a>
+<h3>Water Dispenser Pump</h3>
+<p>Strawandweave Automatic Water Dispenser Pump for 20L Bottles</p>
+<p class="price">₹290 Onwards</p>
+<p>Click the above photo for more details</p>
+</div>
+<div class="product">
+<a href="stove.html"><img src="stove.webp" alt="Gas Stove" /></a>
+<h3>Gas Stove</h3>
+<p>Butterfly Rapid Plus Glass Manual Gas Stove (2 Burners)</p>
+<p class="price">₹3,701 Onwards</p>
+<p>Click the above photo for more details</p>
+</div>
+</div>
+<center>
+<h2>Check out our new product!</h2>
+<audio controls>
+<source src="audio.mp3" type="audio/mp3" />
+</audio>
+<br /><br />
+<video autoplay muted loop playsinline width="320" height="240" controls>
+<source src="video.mp4" type="video/mp4" />
+</video>
+<h1>Find Our Store Location</h1>
+<a
+href="https://www.google.com/maps/place/Kamaraj+College+of+Engineering+%26+Techn
+ology+(Autonomous)/@9.6728183,77.9632273,17z/"
+>Click here to know our Location</a
+>
+</center>
+</body>
+</html>
